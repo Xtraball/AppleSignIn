@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-  xmlns:android="http://schemas.android.com/apk/res/android" id="cordova-plugin-sign-in-with-apple" version="0.0.1">
-  <name>cordova-plugin-sign-in-with-apple</name>
+  xmlns:android="http://schemas.android.com/apk/res/android" id="AppleSignIn" version="0.0.1">
+  <name>AppleSignIn</name>
 
   <description>Sign in with Apple</description>
   <license>MIT</license>
@@ -13,7 +13,6 @@
   <engines>
     <engine name="cordova" version=">=8.0.0"/>
     <engine name="cordova-ios" version=">=4.5.0"/>
-    <!--<engine name="apple-ios" version=">=13.0" />-->
   </engines>
 
   <js-module src="www/sign-in-with-apple.js" name="SignInWithApple">
@@ -28,7 +27,6 @@
       </feature>
     </config-file>
     <framework src="AuthenticationServices.framework" />
-    <!--<dependency id="cordova-plugin-add-swift-support" version="2.0.2"/>-->
     <source-file src="src/ios/SignInWithApple.h" />
     <source-file src="src/ios/SignInWithApple.m" />
 
@@ -42,6 +40,5 @@
         <string>Default</string>
       </array>
     </config-file>
-<!--<hook type="after_prepare" src="scripts/after_prepare.js" />-->
   </platform>
 </plugin>

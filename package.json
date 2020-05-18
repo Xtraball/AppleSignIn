@@ -6,6 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "cordova": {
+    "platforms": [
+      "ios"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/twogate/cordova-plugin-sign-in-with-apple.git"
